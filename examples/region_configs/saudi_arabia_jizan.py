@@ -1,11 +1,11 @@
-# Example Configuration: Jizan Province, Saudi Arabia
+# Example Configuration: Jazan Province, Saudi Arabia
 # This configuration was used for the original study
 
 """
-Jizan Province Configuration
+Jazan Province Configuration
 
-Region: Jizan Province, Saudi Arabia
-Area: ~11,671 km²
+Region: Jazan Province, Saudi Arabia
+Area: ~15,726 km²
 Terrain: Coastal to mountainous (0-2,600m)
 Climate: Tropical/semi-arid
 """
@@ -13,7 +13,7 @@ Climate: Tropical/semi-arid
 class Config:
     # Region
     COUNTRY = 'Saudi Arabia'
-    REGION = 'Jizan'
+    REGION = 'Jazan'
     
     # Temporal
     YEAR = 2024
