@@ -134,7 +134,7 @@ patches_approx = region_area / (patch_size ** 2)
 print(f"Estimated patches: {patches_approx:.0f}") 
 
 # With mountain filtering (~1% coverage):
-print(f"After filtering: {patches_approx * 0.1:.0f}")  # ~887
+print(f"After filtering: {patches_approx * 0.1:.0f}")  # ~878
 ```
 
 ### Storage Requirements
