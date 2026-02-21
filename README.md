@@ -56,7 +56,7 @@ The Mountain Green Cover Index (MGCI) measures the percentage of mountain area c
 5. **Pre-trained Weights** — Ready-to-use model for immediate inference
 
 <p align="center">
-  <img src="figures/pipeline_overview.png" alt="Pipeline Overview" width="800"/>
+  <img src="figures/pipeline_overview.png" alt="Pipeline Overview2" width="800"/>
 </p>
 
 ---
