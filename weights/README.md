@@ -9,20 +9,20 @@ This directory contains instructions for downloading the pre-trained model weigh
 | Architecture | U-Net + ResNet-50 |
 | Input Channels | 6 (Blue, Green, Red, NIR, Elevation, Slope) |
 | Output | Binary vegetation mask |
-| Training Region | Jizan, Saudi Arabia |
+| Training Region | Jazan, Saudi Arabia |
 | Training Patches | 878 |
 | Best Epoch | 68 |
 | Validation IoU | 0.8475 |
 | Test Dice | 0.9263 |
 | File Size | ~125 MB |
 
-## Download Options
+## Download option
 
-### Option 1: Google Drive (Recommended)
+### Google Drive
 
 Download the pre-trained weights from Google Drive:
 
-📥 **[Download model_best.pth](YOUR_GOOGLE_DRIVE_LINK_HERE)**
+📥 **[Download model_best.pth](https://drive.google.com/file/d/1FXqu42tDVVubW_Tr5jFTkpp3X6fagTXN/view?usp=drivesdk)**
 
 After downloading, place the file in your Google Drive or local directory and update the path in Notebook 3:
 
@@ -30,13 +30,6 @@ After downloading, place the file in your Google Drive or local directory and up
 Config.MODEL_PATH = '/path/to/model_best.pth'
 ```
 
-### Option 2: Hugging Face Hub
-
-*(Coming soon)*
-
-### Option 3: Direct Link
-
-*(Coming soon)*
 
 ## Checkpoint Contents
 
@@ -105,7 +98,7 @@ optimizer = torch.optim.AdamW(
 
 ## Normalization Statistics
 
-The model was trained with the following normalization (computed from Jizan training data):
+The model was trained with the following normalization (computed from Jazan training data):
 
 | Band | Mean | Std |
 |------|------|-----|
