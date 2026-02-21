@@ -33,9 +33,9 @@ class Config:
     PATCH_MOUNTAIN_MIN = 1.0
     
     # Paths
-    DATA_DIR = '/content/drive/MyDrive/MGCI_Jizan_2024'
+    DATA_DIR = '/content/drive/MyDrive/MGCI_Jazan_2024'
     OUTPUT_DIR = '/content/outputs'
-    MODEL_PATH = '/content/drive/MyDrive/MGCI_Jizan_2024/model_best.pth'
+    MODEL_PATH = '/content/drive/MyDrive/MGCI_Jazan_2024/model_best.pth'
     
     # Bands
     BAND_NAMES = ['Blue', 'Green', 'Red', 'NIR', 'Elevation', 'Slope', 'VegLabel']
