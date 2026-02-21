@@ -423,6 +423,12 @@ The output JSON files contain:
   <img src="figures/mgci_comparison.png" alt="MGCI Comparison" width="600"/>
 </p>
 
+### Area Breakdown
+
+<p align="center">
+  <img src="figures/04_area_pie_chart.png" alt="Area Breakdown" width="500"/>
+</p>
+
 ### MGCI by Elevation Class
 
 <p align="center">
@@ -436,7 +442,19 @@ The output JSON files contain:
 - Model reduces false positives in bare soil and rocky areas
 
 <p align="center">
-  <img src="figures/sample_predictions.png" alt="Sample Results" width="800"/>
+  <img src="figures/predictions_comparison2.png" alt="Sample Results" width="800"/>
+</p>
+
+<p align="center">
+  <img src="figures/Veg_Map.png" alt="Vegetation map" width="800"/>
+</p>
+
+<p align="center">
+  <img src="figures/NDVIvsUnet.jpeg" alt="NDVI vs U-Net" width="800"/>
+</p>
+
+<p align="center">
+  <img src="figures/MGCI Inspector.png" alt="MGCI Inspector.png" width="800"/>
 </p>
 
 ---
