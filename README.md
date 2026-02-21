@@ -79,7 +79,7 @@ The Mountain Green Cover Index (MGCI) measures the percentage of mountain area c
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/MGCI-Deep-Learning.git
+git clone https://github.com/QEC-Team/MGCI-Deep-Learning.git
 cd MGCI-Deep-Learning
 
 # 2. Download pre-trained weights (see weights/README.md)
@@ -94,7 +94,7 @@ cd MGCI-Deep-Learning
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/MGCI-Deep-Learning.git
+git clone https://github.com/QEC-Team/MGCI-Deep-Learning.git
 cd MGCI-Deep-Learning
 
 # 2. Open notebooks in Google Colab:
@@ -138,7 +138,7 @@ MGCI-Deep-Learning/
 │
 └── examples/
     └── region_configs/                # Example configurations for regions
-        ├── saudi_arabia_jizan.py
+        ├── saudi_arabia_jazan.py
         └── template.py
 ```
 
@@ -451,7 +451,7 @@ If you use this code or methodology in your research, please cite:
   title = {MGCI-Deep-Learning: A Framework for Mountain Green Cover Index Calculation Using Deep Learning},
   year = {2024},
   publisher = {GitHub},
-  url = {https://github.com/YOUR_USERNAME/MGCI-Deep-Learning}
+  url = {https://github.com/QEC-Team/MGCI-Deep-Learning}
 }
 ```
 
