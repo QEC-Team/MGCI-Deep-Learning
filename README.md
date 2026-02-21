@@ -311,7 +311,7 @@ See [`weights/README.md`](weights/README.md) for download instructions.
 |----------|-------|
 | Architecture | U-Net + ResNet-50 |
 | Input Channels | 6 |
-| Training Region | Jizan, Saudi Arabia |
+| Training Region | Jazan, Saudi Arabia |
 | Training Patches | 878 |
 | Best Epoch | 68 |
 | Validation IoU | 0.8475 |
@@ -400,8 +400,8 @@ The output JSON files contain:
 | Dice | 92.63% |
 
 <p align="center">
-  <img src="figures/confusion_matrix.png" alt="Confusion Matrix" width="400"/>
-  <img src="figures/metrics_summary.png" alt="Metrics Summary" width="400"/>
+  <img src="figures/confusion_matrix.png" alt="Confusion Matrix" width="600"/>
+  <img src="figures/metrics_summary.png" alt="Metrics Summary" width="500"/>
 </p>
 
 ### Training History
@@ -410,7 +410,7 @@ The output JSON files contain:
   <img src="figures/training_history.png" alt="Training History" width="700"/>
 </p>
 
-### MGCI Results (Jizan, Saudi Arabia)
+### MGCI Results (Jazan, Saudi Arabia)
 
 | Method | MGCI (%) |
 |--------|----------|
@@ -420,7 +420,7 @@ The output JSON files contain:
 | Model (True Surface) | 19.36% |
 
 <p align="center">
-  <img src="figures/mgci_comparison.png" alt="MGCI Comparison" width="500"/>
+  <img src="figures/mgci_comparison.png" alt="MGCI Comparison" width="600"/>
 </p>
 
 ### MGCI by Elevation Class
