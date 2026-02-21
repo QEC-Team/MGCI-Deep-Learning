@@ -11,8 +11,8 @@ authors:
     given-names: "Thamer"
   - family-names: "Alwazzan"
     given-names: "Bandar"
-repository-code: "https://github.com/YOUR_USERNAME/MGCI-Deep-Learning"
-url: "https://github.com/YOUR_USERNAME/MGCI-Deep-Learning"
+repository-code: "https://github.com/QEC-Team/MGCI-Deep-Learning"
+url: "https://github.com/QEC-Team/MGCI-Deep-Learning"
 abstract: >-
   A deep learning framework for calculating the Mountain Green Cover Index 
   (MGCI) - UN SDG Indicator 15.4.2 - using U-Net semantic segmentation and 
