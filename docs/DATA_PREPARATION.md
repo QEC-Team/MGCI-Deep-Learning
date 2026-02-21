@@ -28,7 +28,7 @@ The framework uses FAO Global Administrative Unit Layers (GAUL) for region selec
 | Level | Examples | GEE Asset |
 |-------|----------|-----------|
 | Country | Saudi Arabia, Switzerland, Nepal | `FAO/GAUL/2015/level0` |
-| Admin Level 1 | Jizan (province), Colorado (state) | `FAO/GAUL/2015/level1` |
+| Admin Level 1 | Jazan (province), Colorado (state) | `FAO/GAUL/2015/level1` |
 | Admin Level 2 | County, district | `FAO/GAUL/2015/level2` |
 
 #### Finding Your Region Name
@@ -64,7 +64,7 @@ region = ee.FeatureCollection('users/YOUR_USERNAME/your_boundary')
 class Config:
     # Region identification
     COUNTRY = 'Saudi Arabia'       # Country name (exact match)
-    REGION = 'Jizan'               # Province/state name
+    REGION = 'Jazan'               # Province/state name
     
     # Temporal parameters
     YEAR = 2024                    # Analysis year
@@ -127,14 +127,14 @@ class Config:
 # Approximate formula:
 # patches ≈ (region_area_km2) / (patch_size_km)^2
 
-# Example: Jizan Province (~11,671 km²)
-region_area = 11671  # km²
+# Example: Jazan Province (~15,726 km²)
+region_area = 15726  # km²
 patch_size = 2.56    # km (256 pixels × 10m)
 patches_approx = region_area / (patch_size ** 2)
-print(f"Estimated patches: {patches_approx:.0f}")  # ~1,768
+print(f"Estimated patches: {patches_approx:.0f}") 
 
-# With mountain filtering (~50% coverage):
-print(f"After filtering: {patches_approx * 0.5:.0f}")  # ~884
+# With mountain filtering (~1% coverage):
+print(f"After filtering: {patches_approx * 0.1:.0f}")  # ~887
 ```
 
 ### Storage Requirements
