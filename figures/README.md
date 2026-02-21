@@ -26,5 +26,5 @@ Most figures are generated automatically by the notebooks:
 | Notebook | Generated Figures |
 |----------|-------------------|
 | Notebook 2 | training_history, confusion_matrix, metrics_summary, sample_predictions, spatial_split |
-| Notebook 3 | mgci_comparison, mgci_analysis, mgci_by_kapos_class, sample_patches |
+| Notebook 3 | mgci_comparison, mgci_analysis, mgci_by_kapos_class,mgci_four_way_comparison, prediction_comparison, sample_patches |
 
