@@ -6,7 +6,7 @@ This directory contains figures for the repository documentation.
 
 | File | Description |
 |------|-------------|
-| `pipeline_overview2.png` | Three-phase pipeline diagram |
+| `pipeline_overview.png` | Three-phase pipeline diagram |
 | `training_history.png` | Loss, IoU, Dice curves during training |
 | `confusion_matrix.png` | Test set confusion matrix |
 | `metrics_summary.png` | Bar chart of performance metrics |
