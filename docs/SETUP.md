@@ -34,9 +34,9 @@ This is the easiest way to run the notebooks with GPU support.
 3. Upload the notebooks from `notebooks/` directory
 
 Or use the direct links:
-- [Notebook 1: Data Export](https://colab.research.google.com/github/YOUR_USERNAME/MGCI-Deep-Learning/blob/main/notebooks/MGCI_1_DataExport.ipynb)
-- [Notebook 2: Training](https://colab.research.google.com/github/YOUR_USERNAME/MGCI-Deep-Learning/blob/main/notebooks/MGCI_2_Training.ipynb)
-- [Notebook 3: Inference](https://colab.research.google.com/github/YOUR_USERNAME/MGCI-Deep-Learning/blob/main/notebooks/MGCI_3_Inference.ipynb)
+- [Notebook 1: Data Export](https://colab.research.google.com/github/QEC-Team/MGCI-Deep-Learning/blob/main/notebooks/MGCI_1_DataExport.ipynb)
+- [Notebook 2: Training](https://colab.research.google.com/github/QEC-Team/MGCI-Deep-Learning/blob/main/notebooks/MGCI_2_Training.ipynb)
+- [Notebook 3: Inference](https://colab.research.google.com/github/QEC-Team/MGCI-Deep-Learning/blob/main/notebooks/MGCI_3_Inference.ipynb)
 
 #### Step 2: Enable GPU (for Notebooks 2 & 3)
 
@@ -60,7 +60,7 @@ For running on your own machine with a GPU.
 #### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/MGCI-Deep-Learning.git
+git clone https://github.com/QEC-Team/MGCI-Deep-Learning.git
 cd MGCI-Deep-Learning
 ```
 
